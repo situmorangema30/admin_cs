@@ -1,0 +1,5 @@
+@props(['message'])
+
+<div class="text-danger">
+    {{ $message }}
+</div>
