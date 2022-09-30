@@ -4,7 +4,7 @@
     <!-- Content -->
     <div class="col-xl-12 col-lg-12 p-0">
         <form class="user"
-            action="{{ isset($productCategory) ? url("/product-categories/$productCategory->id/update") : url('/product-categories/store') }}"
+            action="{{ isset($productCategory) ? url(">id/update") : url('/product-categories/store') }}"
             method="post">
             @csrf
 
